@@ -1,0 +1,84 @@
+/* Remove default margin */
+body {
+    margin: 0;
+}
+
+/* Navbar Fix */
+nav {
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 25px;
+    z-index: 10;
+    
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 30px;
+
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #0846B4 0%, #8F3EF4 100%);
+    padding-top: 80px;
+    position: relative;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 440px;
+    filter: grayscale(90%);
+    position: relative;
+}
+
+/* Text Under Name */
+.tags span {
+    font-size: 18px;
+    opacity: 0.85;
+    font-weight: bolder;
+ 
+    align-items: center;
+}
+
+/* Main name styling */
+
+.nama {
+    font-size: 68px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+footer {
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    bottom: 0;  
+    padding: 20px;
+    z-index: 10;
+    color: white;
+
+}
+
+/* Background untuk halaman selain Home */
+.sub-page {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0846B4 0%, #8F3EF4 100%);
+    padding-top: 120px;
+    color: white;
+}
+
+/* Card transparan */
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: left;
+}
